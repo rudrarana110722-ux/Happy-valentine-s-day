@@ -143,6 +143,6 @@ yesBtn.addEventListener("click", () => {
   let i = 0;
   setInterval(() => {
     i = (i + 1) % 4;
-    document.getElementById("slideshow").src = `megha${i + 1}.jpg`;
+    document.getElementById("slideshow").src = `kashish${i + 1}.jpg`;
   }, 2500);
 });
